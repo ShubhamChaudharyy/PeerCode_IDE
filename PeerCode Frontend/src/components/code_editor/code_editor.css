@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,600;1,200&display=swap');
+.navbar_code_editor{
+    position: absolute !important;
+    top: 0px;
+    width: 100vw !important;
+    left: -1vh;
+    height: 10vh;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+}
+.ace_editor{
+    width: 40vw !important;
+    margin-top: 8.9vh;
+    left: -1.0vh;
+    height: 136.5vh !important;
+}
+.ace_input{
+    width: 50vw !important;
+    height: 50vh !important;
+    padding: 10px;
+}
+.circular_loading{
+    color: white !important;
+    margin-left: 45%;
+    margin-top: 17.5%;
+}
+.compiling{
+    display: flex;
+    justify-content: center;
+}
+.output_area{    
+    white-space: pre-wrap;
+    color: white !important;
+}
+#standard-textarea{
+    color: white !important;
+}
+.ace_output{
+    height: 50vh !important;
+    width: 50vw !important;
+    margin-top: 8.9vh !important;
+    background-color: #1B1B1B;
+    color: white !important;
+    font-family: 'Source Code Pro', monospace;
+    padding: 10px;
+}
+.our_lovely_canvas{
+    position: relative;
+    top: 9.2vh;
+}
+.grid_canvas{
+    background-color: black;
+}
+.navbar_editor{
+    height: 10vh;
+}
+.adjust_top{
+    display:flex;
+    justify-content: space-between;
+    width: 40vw;
+}
+.label-up{
+    top: 1vh !important;
+    color: white !important;
+}
+.D-Mode,.Run-Mode{
+    font-family: 'Poppins',sans-serif;
+    top:4vh;
+}
+.Run-Mode,.Eraser{
+    position: relative;
+    border: 1px solid white;
+    border-radius: 20px;
+    top: 1.5vh !important;
+    font-size: 12px;
+    padding-top: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.Run-Mode:hover,.Eraser:hover{
+    background-color: white;
+    color:rgba(0,130,255,1) ;
+}
+.D-Mode{
+    position: relative;
+    top: 2vh;
+}
+.dropdown{
+    top: 1vh;
+    color: white !important;
+}
+.Eraser{
+    font-family: 'Poppins',sans-serif;
+    position: relative;
+    transition: 0.6s ease;
+}

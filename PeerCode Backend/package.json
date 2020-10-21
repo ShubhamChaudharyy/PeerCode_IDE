@@ -1,0 +1,29 @@
+{
+  "name": "zoom-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=dev && node server.js",
+    "dev": "set NODE_ENV=dev && node server.js"
+  },
+  "engines": {
+    "node": "12.13.0",
+    "npm": "6.12.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase": "^7.18.0",
+    "firebase-admin": "^9.1.0",
+    "node-fetch": "^2.6.0",
+    "socket.io": "^2.3.0",
+    "uuid": "^8.3.0"
+  }
+}

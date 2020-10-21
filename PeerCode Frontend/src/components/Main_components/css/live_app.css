@@ -1,0 +1,17 @@
+.user_video{
+    height:30vh;
+    position: absolute;
+    left: 79vw;
+    z-index: 10000;
+}
+.peer_video{
+    position: absolute;
+    height: 30vh;
+    left: 59vw;
+    z-index: 10000;
+}
+
+body{
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+}
